@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./accets/img/favicon_music.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./accets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./accets/css/responsive.css">
+
+    <title>Spring Concert 2021</title>
 </head>
 
 <body>
@@ -17,28 +20,32 @@
         <div id="header">
             <!-- begin: nav -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-icon-arrow fas fa-chevron-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
             <!-- end: nav -->
-            <!-- begin: search button -->
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon fas fa-bars"></i>
+            </div>
+            <!-- search button -->
             <div class="search-btn">
                 <i class="search-icon fas fa-search"></i>
             </div>
-            <!-- end: search button -->
+
         </div>
 
         <div id="slider">
@@ -49,8 +56,8 @@
         </div>
 
         <div id="content">
-            <!-- Content Section -->
-            <div class="content-section">
+            <!-- Begin: Content Section -->
+            <div id="band" class="content-section">
                 <h2 class="section-heading">NGHỆ SĨ</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">
@@ -64,56 +71,58 @@
                     bạn.</p>
 
                 <div class="row members-list">
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Sơn Tùng M-TP</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_1.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Mỹ Tâm</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_2.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
-                        
+                    <div class="col col-third s-col-full mt-16 text-center">
+
                         <p class="member-name">Issac</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_3.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Đông Nhi</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_4.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Lam Trường</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_5.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Phạm Anh Khoa</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_6.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Đàm Vĩnh Hưng</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_7.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Only C</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_8.png" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Dj WANG</M-TP>
                         </p>
                         <img src="./accets/img/team_band/member_9.png" alt="Name" class="member-img">
                     </div>
                 </div>
             </div>
-            <!-- tour section -->
-            <div class="tour-section">
+            <!-- End: Content Section -->
+
+            <!-- Begin: tour section -->
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-sub-heading text-white">Remember to book your tickets!</p>
@@ -124,46 +133,49 @@
                         <li>November<span class="quantity">3</span></li>
                     </ul>
 
-                    <!-- places -->
+                    <!-- Begin: places -->
                     <div class="row places-list">
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./accets/img/team_band/sai_gon.jpg" alt="Sài Gòn" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">Sài Gòn</h3>
                                 <p class="place-time">Fri 10 Nov 2021</p>
                                 <p class="place-decription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./accets/img/team_band/da_nang.jpg" alt="Đà Nẵng" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">Đà Nẵng</h3>
                                 <p class="place-time">Sat 20 Nov 2021</p>
                                 <p class="place-decription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./accets/img/team_band/ha_noi.jpg" alt="Hà Nội" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">Hà Nội</h3>
                                 <p class="place-time">Sun 29 Nov 2021</p>
                                 <p class="place-decription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button class="btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
+                    <!-- End: places -->
                 </div>
             </div>
-            <!-- Contact section -->
-            <div class="content-section">
+            <!-- End: tour section -->
+
+            <!-- Begin: Contact section -->
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p>
                             <i class="fas fa-map-marker-alt"></i>
                             Address: Hà Nội, Việt Nam
@@ -177,31 +189,63 @@
                             Email: nhatbhaf190185@fpt.edu.vn
                         </p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" id="" required class="form-control" placeholder="Name">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" id="" required class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="row mt-8">
                                 <div class="col col-full">
-                                    <input type="message" required class="form-control" placeholder="Message" name="" id="">
+                                    <input type="message" required class="form-control" placeholder="Message" name=""
+                                        id="">
                                 </div>
                             </div>
-                            <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                            <input class="btn pull-right mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- End: Contact section -->
 
+            <!-- Begin: Map -->
+            <div id="map" class="map-section">
+                <img src="./accets/img/map.jpg" alt="Map">
+            </div>
+            <!-- End: Map -->
+        </div>
+        <!-- Begin: footer -->
         <div id="footer">
-
+            <div class="social-list">
+                <a href="">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+            <p class="copyright">
+                Powered by
+                <a href="#">w3.css</a>
+            </p>
         </div>
+        <!-- End: footer -->
     </div>
 
     <div class="modal js-modal">
@@ -237,6 +281,54 @@
     </div>
 
     <script>
+        //tạo biến gọi đến id
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        // tạo 1 biến để lưu giá trị chiều cao ban đầu đã css mang đi so sánh
+        var headerHight = header.clientHeight;
+        //tạo hàm lắng nghe click
+        mobileMenu.onclick = function() {
+            // tạo biến để biết nó đang mở hay khi
+            // tiếp theo so sánh với giá trị ban đầu headerHight
+            // clientHeight:trả về chiều cao
+            var isClose = header.clientHeight === headerHight;
+
+            if(isClose) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+
+            }
+        }
+
+        // tự động đóng khi chọn menu
+        // querySelector: truy vấn đến thuộc tính của css để lấy ra thẻ a
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        // đưa ra vòng lặp for trong menuItems
+        for (var i = 0; i < menuItems.length; i++) {
+            // lấy 1 menuItem trong mảng menuItems
+            var menuItem = menuItems[i];   
+            
+            menuItem.onclick = function(event) {
+                // nextElementSibling: anh chị em liền kề tiếp theo
+                //giải thích: nếu mà có ace liền kề && và ace liền kề đó
+                // chứa class 'subnav' thì isParentMenu chính là menu cha
+                var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+                
+                if(isParentMenu){
+                    //nếu là isParentMenu thì bỏ qua cái mặc định
+                    event.preventDefault();
+                } else {
+                    // nếu trong isParentMenu không chứa ace thì sẽ ẩn đi
+                    header.style.height = null;
+                    
+                }
+                
+            }
+        }
+    </script>
+
+    <script>
         // tạo 1 biến để lưu lại 3 nút buy trong classs js-buy-tickets
         // hàm const để tạo biến
         // querySelectorAll để truy xuất vào class
@@ -268,7 +360,7 @@
         modal.addEventListener('click', hideBuyTickets)
         //mỗi lần click sẽ trả về 1 event 
         //event sẽ giúp bạn ngăn chặn hành vi mặc định
-        modalContainer.addEventListener('click', function(event) {
+        modalContainer.addEventListener('click', function (event) {
             //ngừng nổi bọt từ modalContainer
             event.stopPropagation()
         })
